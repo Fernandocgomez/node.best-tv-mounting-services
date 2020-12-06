@@ -1,2 +1,12 @@
+# Dependencies
 /node_modules
+
+# Enviromental variables
 /nodemon.json
+
+.gitignore
+.elasticbeanstalk/
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
